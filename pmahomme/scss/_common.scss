@@ -1082,7 +1082,7 @@ form.login {
 }
 
 li.last.database {
-  margin-bottom: 15px;
+  margin-bottom: 15px !important;
 }
 
 /* specific elements */
@@ -3310,6 +3310,10 @@ input#auto_increment_opt {
 
 body .ui-widget {
   font-size: 1em;
+}
+
+body #ui-datepicker-div {
+  z-index: 9999 !important;
 }
 
 .ui-dialog fieldset legend a {
